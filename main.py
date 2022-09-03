@@ -3,8 +3,8 @@ from random import randint
 
 print("hey guys")
 
-for i in range(1,365):
-    for j in range(1,randint(1,3)):
+for i in range(365,700):
+    for j in range(1,randint(1,10)):
         d = str(i) + ' days ago'
         with open('file.txt','a') as f:
             f.write(d)
